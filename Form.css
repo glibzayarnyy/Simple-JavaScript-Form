@@ -1,0 +1,147 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px 100px;
+    background-color: white;
+}
+
+form > section > div > fieldset > div > input, form > section > div > textarea {
+    box-shadow: 6px 4px 5px 0px rgba(48, 50, 50, 0.3);
+}
+
+input.button {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    width: 100px;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    padding: 8px 8px;
+
+}
+
+#showEorror{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-left: 29%;
+    width: 60%;
+}
+
+#showEorror span{
+    color: red;
+}
+
+#header1 h1 {
+    color: white;
+    padding: 25px 10px 10px 10px;
+    background-color: red;
+}
+
+#header2 h2 {
+    font-family: sans-serif;
+
+}
+#req {
+    color:red;
+    font-size: medium;
+    float: left;
+}
+
+section {
+    margin: 11px 0;
+}
+
+section div {
+    margin: 11px 0;
+}
+
+form > section > div > label {
+    display: inline-block;
+    width: 26%;
+    text-align: right;
+}
+
+form > section > div > input, form > section > div > select{
+    display: inline-block;
+    width: 40%;
+
+}
+
+
+form > section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #F5F5F5;
+}
+
+form > section > h3 {
+    background-color: #D3D3D3;
+}
+
+form > section > div > textarea {
+    display: inline-block;
+    width: 40%;
+    height: 100px;
+}
+
+form > section > div > fieldset {
+    width: 40%;
+    margin-left: 28%;
+}
+
+form > section > div > fieldset div {
+    margin-left: 10px;
+}
+
+form > section > div > fieldset legend {
+    margin-left: 10px;
+}
+
+#head_Little, #head_Big {
+    text-align: left;
+}
+
+#head_Big span {
+    font-size: 0.6em;
+}
+
+.red-star {
+    color: red;
+}
+
+.textarea-label {
+    vertical-align: top;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.error-alert {
+    margin-left: 32%;
+    margin-top: 5px;
+    font-size: 10px;
+    line-height: 12px;
+    color: #555;
+}
+
+.error-x {
+    font-size: 12px;
+    margin-right: 2px;
+    color: red;
+    font-weight: bold;
+}
